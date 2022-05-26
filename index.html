@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evil Eye Cafe</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+    />
+    <!-- my css link -->
+    <link rel="stylesheet" type="text/css" href="/assets/style/styles.css" />
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Evil Eye Cafe</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index2.html"
+                >Menu</a
+            >
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/mug.html"
+                >Mugs</a
+            >
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- moving hero -->
+    <section class="hero">
+    <div class="content">
+        <h2>Evil Eye Cafe</h2>
+        <br />
+        <p>Come and grab a cup of jo</p>
+    </div>
+    <button class="custom-btn btn-4">Read More</button>
+    <div class="waves"></div>
+    </section>
+    <br /><br />
+
+    <!-- 3 new products -->
+    <h1 class="seasonal">Seasonal Products</h1>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+        <div class="blog-card blog-card-blog">
+            <div class="blog-card-image">
+            <a href="#"> <img id="turkishcof" class="img" src="/icecekler-2.jpg" /> </a>
+            <div class="ripple-cont"></div>
+            </div>
+            <div class="blog-table">
+            <h6 class="blog-category blog-text-success">
+                <i class="far fa-newspaper"></i> New
+            </h6>
+            <h4 class="blog-card-caption">
+                <a href="#">Mastic Gum Flavored Turkish Coffee</a>
+            </h4>
+            <p class="blog-card-description">
+                The Turkish Gum Mastic Dibek Coffee is a different Turkish
+                Coffee type and It has a special and different taste. It does
+                not contain the Mastic Gum flavor but contains real original
+                Mastic Gum.
+            </p>
+            <div class="ftr">
+                <div class="stats"><i class="far fa-clock"></i></div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="blog-card blog-card-blog">
+            <div class="blog-card-image">
+            <a href="#">
+                <img class="img" src="/traditionalbreakfast.jpg" />
+            </a>
+            <div class="ripple-cont"></div>
+            </div>
+            <div class="blog-table">
+            <h6 class="blog-category blog-text-success">
+                <i class="fas fa-blog"></i> New
+            </h6>
+            <h4 class="blog-card-caption">
+                <a href="#">Try Our Kahvalti</a>
+            </h4>
+            <p class="blog-card-description">
+                A classic Turkish breakfast is generally comprised of black and
+                green olives, cucumbers, cured meats, dips and sauces, eggs,
+                fresh cheeses, fresh tomatoes, fresh-baked bread, fruit
+                preserves and jams, honey, pastries, and sweet butter.
+            </p>
+            <div class="ftr">
+                <div class="stats"><i class="far fa-clock"></i></div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="blog-card blog-card-blog">
+            <div class="blog-card-image">
+            <a href="#"> <img class="img" src="/turkishcoffee.jpg" /> </a>
+            <div class="ripple-cont"></div>
+            </div>
+            <div class="blog-table">
+            <h6 class="blog-category blog-text-success">
+                <i class="far fa-newspaper"></i> News
+            </h6>
+            <h4 class="blog-card-caption">
+                <a href="#">Traditional Turkish Coffee Mugs</a>
+            </h4>
+            <p class="blog-card-description">
+                Turkish cups for coffee are tiny porcelain vessels with a
+                handle. Served with a small saucer, the sets are usually
+                designed in the Turkish-Islamic style. Porcelain used for the
+                sets comes from Iznik and Kutahya
+            </p>
+            <div class="ftr">
+                <div class="stats"><i class="far fa-clock"></i></div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+<br>
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="row">
+<div class="col">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+</div>
+<div class="col">
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+</div>
+</div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn bs-gray-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Done!</button>
+    </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Congradulations!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        Your reservation is set! 
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+    </div>
+    </div>
+</div>
+</div>
+<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Reservations</a>
+
+<br>
+    <!-- footer and copyright -->
+    <div class="footer-dark">
+    <footer>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Coffee</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Mugs</a></li>
+            </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+            </div>
+            <div class="col-md-6 item text">
+            <h3>Evil Eye Cafe</h3>
+            <p>
+                Sisters who migrated from Turkey decided to open up their own
+                coffee shop with their culture in it. To show a little bit of
+                Turkish Culture in America. They brought their countries famous
+                breakfast and pastries. Also the drinks, and some kitchenware
+                such as mugs as well.
+            </p>
+            </div>
+            <div class="col item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a
+            ><a href="#"><i class="icon ion-social-twitter"></i></a
+            ><a href="#"><i class="icon ion-social-snapchat"></i></a
+            ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+        </div>
+        <p class="copyright">Evil Eye Cafe © 2022</p>
+        </div>
+    </footer>
+    </div>
+</body>
+
+<!--  javascript -->
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
